@@ -1,4 +1,4 @@
-@Library('jenkins-pipeline@master')
+@Library(['jenkins-pipeline@master']) _
 
 pipeline {
     agent { docker { image 'python:3.5.1' } }
