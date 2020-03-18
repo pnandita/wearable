@@ -5,7 +5,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-							  log.info "nandita's jenkins job"
+							  script {
+							    log.info "nandita's jenkins job"
+								}
                 sh 'python --version'
             }
         }
